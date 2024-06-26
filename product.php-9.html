@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>429 :: Trop de demandes</title>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+    
+            .error-container {
+                text-align: center;
+            }
+    
+            .error-code {
+                font-size: 6em;
+                font-weight: bold;
+                color: #d9534f;
+            }
+    
+            .error-message {
+                font-size: 1.5em;
+                margin-top: 10px;
+            }
+    
+            .error-details {
+                margin-top: 20px;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                text-align: left;
+            }
+    
+            .back-to-home {
+                margin-top: 20px;
+                text-decoration: none;
+                color: #fff;
+                background-color: #5bc0de;
+                padding: 10px 20px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="error-container">
+            <div class="error-code">429</div>
+            <div class="error-message">Trop de demandes</div>
+    
+            <div class="error-details">
+                <p><center>Veuillez patienter quelques secondes entre chaque requête pour éviter les surcharges. <br><br>Merci de votre compréhension et collaboration.<br><br><button onclick="location.reload();">Rafraîchir</button></center></p>
+            </div>
+        </div>
+    </body>
+    </html>
